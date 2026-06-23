@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaadi.com Profile form</title>
+</head>
+<body>
+
+    <h1>Create Your Matrimony Profile</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend><br>
+
+            <label for="name">Full Name :</label>
+            <input id="name" type="text" placeholder="Amit Mishra" name="name">
+            <br><br>
+            <label>Date of Birth :</label>
+            <input type="date" name="dob">
+            <br><br>
+            <label for="gender">Gender :</label><br>
+            <input id="gender" type="radio" name="gender" value="male"> Male
+            <input id="gender" type="radio" name="gender" value="female"> Female
+            <input id="gender" type="radio" name="gender" value="other"> Other
+            <br><br>
+            <label for="age">Age :</label>
+            <input id="age" type="number" name="age">
+            <br><br>
+            <label for="city">City :</label>
+            <input id="city" type="number" name="city">
+          
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+          <legend>Profile Photo</legend><br>
+          
+          <label for="photo">Upload Photo :</label>
+          <input id="photo" type="file" name="photo">
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+          <legend>Education & Career</legend><br>
+
+          <label for="education">Highest Qualification :</label>
+          <input id="education" type="text" name="education">
+          <br><br>
+          <label for="college">College (Highest Qualification) :</label>
+          <input id="college" type="text" name="college">
+          <br><br>
+          <label for="profession"> Profession :</label>
+          <input id="profession" type="text" name="profession">
+          <br><br>
+          <label for="income">Annual Income :</label>
+          <input id="income" type="number" name="income">
+
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+          <legend>Lifestyle</legend><br>
+
+          <label for="diet">Diet :</label><br>
+          <input id="diet" type="radio" name="diet" value="veg"> Veg
+          <input id="diet" type="radio" name="diet" value="nonveg"> Non-Veg
+          <br><br>
+
+          <label for="smoking">Smoking :</label><br>
+          <input id="smoking" type="radio" name="smoking" value="yes"> Yes
+          <input id="smoking" type="radio" name="smoking" value="no"> No
+          <br><br>
+
+          <label for="drinking">Drinking :</label><br>
+          <input id="drinking" type="radio" name="drinking" value="yes"> Yes
+          <input id="drinking" type="radio" name="drinking" value="no"> No
+
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+          <legend>About Yourself</legend><br>
+
+          <label for="bio">Tell us more about Yourself :</label><br>
+          <textarea id="bio" name="bio" rows="5" cols="50"></textarea>
+          
+        </fieldset>
+
+        <br><br>
+
+        <input type="submit" value="Submit Profile">
+        <input type="reset" value="Clear form">
+    </form>
+</body>
+</html>
