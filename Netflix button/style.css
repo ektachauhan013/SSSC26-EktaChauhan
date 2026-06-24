@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(17, 16, 16);
+    box-sizing: border-box;
+}
+
+h1{
+    color:rgba(255, 0, 0, 0.817);
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:50px auto 0px auto;
+}
+
+p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    margin:100px auto;
+    padding:10px;
+    font-size:20px;
+    width:150px;
+    background-color:rgba(255, 0, 0, 0.817);
+    color:white;
+    border-radius: 15px;
+    border:2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.75);
+    transform: scale(1.05);
+}
+
+button:active{
+    transform:scale(0.95);
+}
