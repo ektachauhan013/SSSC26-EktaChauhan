@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Billing System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Simple Billing System</h1>
+
+      <div class="card">
+
+        <label for="customerName">Customer Name</label>
+        <input type="text" id="customerName" placeholder="Enter Customer Name">
+
+        <label for="productCount">Number of Products</label>
+        <input type="number" id="productCount" min="1" value="1">
+
+        <button id="products">Generate Product Fields</button>
+
+        <div id="productsContainer"></div>
+        <div id="warning"></div>
+
+        <label>Payment Method</label>
+        <select id="paymentMethod">
+          <option value="Cash">Cash</option>
+          <option value="UPI">UPI</option>
+          <option value="Card">Card</option>
+        </select>
+
+        <button id="generateBill">Generate Bill</button>
+
+        <div id="bill"></div>
+
+      </div>
+    </div>
+
+    <script src = "script.js"></script>
+
+  </body>
+</html>
